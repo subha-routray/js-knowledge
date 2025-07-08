@@ -22,6 +22,27 @@ const MyObj={
     name:"subh",
     age:17
 }
-const MyFunction=funvtion(){
+const MyFunction=function(){
     console.log("hello world")
 }
+
+
+
+
+
+//************************************************************************************************* */
+//stack(primitive),heap(non-primitive)
+let myYoutube="subhaYT"
+let NewUserYT="myYoutube"
+NewUserYT="lets_achieve_dream"
+console.log(myYoutube)
+console.log(NewUserYT)
+
+let userone={
+    email:"dijeij@yahoo.com",
+    age:21
+}
+let usretwo=userone
+usretwo.email="jdqwjdb@google.com"
+console.log(usretwo)
+console.log(userone)
